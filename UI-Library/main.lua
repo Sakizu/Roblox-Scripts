@@ -132,7 +132,7 @@ local defaults; do
 
             newWindow:FindFirstChild("window_toggle").MouseButton1Click:connect(function()
                 window.toggled = not window.toggled;
-                newWindow:FindFirstChild("window_toggle").Text = (window.toggled and "+" or "-")
+                newWindow:FindFirstChild("window_toggle").Text = (window.toggled and "-" or "+")
                 if (not window.toggled) then
                     window.container.ClipsDescendants = true;
                 end
