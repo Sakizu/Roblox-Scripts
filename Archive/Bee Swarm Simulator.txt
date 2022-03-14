@@ -1,0 +1,31 @@
+===================================================
+# RoPro Server History
+# Last Played:5 minutes ago
+# Server ID: 7a1a9f2b-bede-4d57-9629-e531e4586545
+# Server Version: 988
+===================================================
+
+Bee Swarm Simulator Unlimited Treat:
+
+local method = "Purchase"
+local args = {
+   ["Mute"] = false,
+   ["Type"] = "Treat",
+   ["Amount"] = -(0/0)/math.huge,
+   ["Category"] = "Eggs"
+}
+
+===================================================
+The treats will be invisible
+so you need to use remotes to use treats
+===================================================
+
+Remotes:
+
+for i=1,5 do
+   for j=1,10 do
+       spawn(function()
+           game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(i,j,"Treat",13123255754676547,false)
+       end)
+   end
+end
