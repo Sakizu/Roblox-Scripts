@@ -1,4 +1,5 @@
 local quick = loadstring(game:HttpGet('https://raw.githubusercontent.com/Sakizu/Roblox-Scripts/main/Quick/main.lua'))()
+
 repeat wait() until (game and game:IsLoaded());
 
 local s = quick.Service;
